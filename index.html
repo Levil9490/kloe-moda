@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kloe</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <a href="index.html" id="logo">Kloe</a>
+            <nav>
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="#london-fashion-week" class="nav-item">London Fashion Week</a>
+                <a href="#our-teaching-team" class="nav-item">Our Teaching Team</a>
+                <a href="#moda-e-beleza" class="nav-item">Moda e Beleza</a>
+                <a href="#secao-contato" class="nav-item">Contato</a>
+                <button id="botao-menu-mobile" onclick="abrirMenu()"><i class="bi bi-list"></i></button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="menu-mobile" class="close">
+        <div id="menu-mobile-container">
+            <a href="index.html" id="logo">Kloe</a>
+            <button id="botao-fechar-menu-mobile" onclick="fecharMenu()"><i class="bi bi-x-lg"></i></button>
+        </div>
+        <div id="menu-mobile-items-container">
+            <a href="index.html" class="menu-mobile-item">Home</a>
+            <a href="#london-fashion-week" class="menu-mobile-item">London Fashion Week</a>
+            <a href="#our-teaching-team" class="menu-mobile-item">Our Teaching Team</a>
+            <a href="#moda-e-beleza" class="menu-mobile-item">Moda e Beleza</a>
+            <a href="#secao-contato" class="menu-mobile-item">Contato</a>
+        </div>
+    </section>
+
+    <section id="banner">
+        <h1 id="titulo-do-banner" class="titulo-primario">Moda</h1>
+        <div id="divisor"></div>
+        <p id="texto-do-banner" class="texto-primario">É um jeito de contar ao mundo quem você é!</p>
+        <button class="btn btn-primario">Veja mais</button>
+    </section>
+
+    <section id="london-fashion-week">
+        <div class="container">
+            <div class="card-horizontal wrap-reverse">
+                <div class="conteudo-do-card">
+                    <h1 class="titulo-do-card">LONDON FASHION WEEK</h1>
+                    <p class="texto-do-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat varius euismod. Phasellus sit amet neque tellus. Nullam interdum sem et rhoncus placerat. Vestibulum eget posuere urna. Suspendisse vitae massa et ipsum hendrerit ornare.</p>
+                </div>
+                <img src="img/moda5.jpg" alt="London Fashion Week" class="midia-do-card">
+            </div>
+        </div>
+    </section>
+
+    <section class="background-primario" id="our-teaching-team">
+        <div class="container wrap">
+            <h1 class="titulo-da-secao">OUR TEACHING TEAM</h1>
+            <div class="card">
+                <div class="card-perfil">
+                    <img src="img/card-img.png" alt="Foto do perfil" class="foto-do-perfil">
+                    <div>
+                        <p><strong>Amanda Sampaio</strong><br>Editora/Escritora</p>
+                    </div>
+                </div>
+                <p class="comentario-do-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <div class="botoes-sociais">
+                    <button class="botao-social"><i class="bi bi-facebook"></i></button>
+                    <button class="botao-social"><i class="bi bi-instagram"></i></button>
+                    <button class="botao-social"><i class="bi bi-twitter"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-perfil">
+                    <img src="img/card-img.png" alt="Foto do perfil" class="foto-do-perfil">
+                    <div>
+                        <p><strong>Carlos Martins</strong><br>Jornalista</p>
+                    </div>
+                </div>
+                <p class="comentario-do-card">Aliquam eu urna vitae mauris accumsan sollicitudin. Nulla ullamcorper lacus nunc, sed luctus dolor sagittis a. Vestibulum ante ipsum primis in faucibus orci.</p>
+                <div class="botoes-sociais">
+                    <button class="botao-social"><i class="bi bi-instagram"></i></button>
+                    <button class="botao-social"><i class="bi bi-twitter"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-perfil">
+                    <img src="img/card-img.png" alt="Foto do perfil" class="foto-do-perfil">
+                    <div>
+                        <p><strong>Gabriela Lima</strong><br>Diretora de moda</p>
+                    </div>
+                </div>
+                <p class="comentario-do-card">Donec lacinia lectus quis erat iaculis, ac pretium risus aliquet. Nam ut lectus ut diam semper commodo. Curabitur mattis eros et libero lobortis molestie.</p>
+                <div class="botoes-sociais">
+                    <button class="botao-social"><i class="bi bi-facebook"></i></button>
+                    <button class="botao-social"><i class="bi bi-instagram"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="moda-e-beleza">
+        <div class="container wrap">
+            <div class="card-horizontal wrap">
+                <img src="img/moda3.jpg" alt="" class="midia-do-card">
+                <div class="conteudo-do-card">
+                    <h1 class="titulo-do-card">MODA <span class="texto-secundario"><i class="bi bi-gem"></i></span></h1>
+                    <p class="texto-do-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Aliquam eu urna vitae mauris accumsan sollicitudin. Nulla ullamcorper lacus nunc, sed luctus dolor sagittis a.</p>
+                </div>
+            </div>
+            <div class="card-horizontal wrap-reverse">
+                <div class="conteudo-do-card">
+                    <h1 class="titulo-do-card">BELEZA <span class="texto-secundario"><i class="bi bi-heart"></i></span></h1>
+                    <p class="texto-do-card">Maecenas justo ex, vulputate at dui et, facilisis scelerisque erat. In hac habitasse platea dictumst. Nullam accumsan tempor sodales. Cras scelerisque eu lorem at ultricies. Curabitur ipsum nisi, dapibus sed lacus sit amet, ornare aliquet justo.</p>
+                </div>
+                <img src="img/moda4.jpg" alt="" class="midia-do-card">
+            </div>
+        </div>
+    </section>
+
+    <section class="background-com-wallpaper" id="secao-contato">
+        <div class="container wrap">
+            <div class="card-horizontal wrap">
+                <div class="conteudo-do-card">
+                    <h1 class="titulo-do-card titulo-primario" id="titulo-do-card-contato"><i class="bi bi-clock"></i> HORÁRIO DE ATENDIMENTO</h1>
+                    <P class="texto-do-card texto-primario" id="texto-do-card-contato">Segunda - Sexta 8:00 - 18:30 Hrs<br>(Ligue até 17:30 Hrs)<br>Sábado 8:00 - 14:00 Hrs</P>
+                </div>
+                <div class="conteudo-do-card">
+                    <h1 class="titulo-do-card titulo-primario" id="titulo-do-card-contato"><i class="bi bi-geo-alt-fill"></i> ONDE ESTAMOS</h1>
+                    <P class="texto-do-card texto-primario" id="texto-do-card-contato">Endereço aqui, 000<br>Tel: (00) 0000-0000<br>E-mail: info@kloemoda.com</P>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p class="texto-primario">&copy; 2022 Kloe.</p>
+        </div>
+    </footer>
+</body>
+</html>
