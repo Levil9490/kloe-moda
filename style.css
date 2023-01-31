@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 :root {
     --color-0: #2b2b2b;
     --color-1: #fbfffb;
@@ -13,16 +16,6 @@
     --line-height: 25px;
 }
 
-@font-face {
-    font-family: 'DM-Serif-text';
-    src: url(fonts/DMSerifText-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url(fonts/Montserrat-Regular.ttf);
-}
-
 * {
     scroll-behavior: smooth;
     margin: 0;
@@ -33,7 +26,7 @@
 body {
     background: var(--color-1);
     color: var(--color-0);
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* HEADER */
@@ -56,7 +49,7 @@ header {
 
 #logo {
     color: var(--color-1);
-    font-family: 'DM-Serif-text';
+    font-family: 'DM Serif Text', serif;
     font-size: 36px;
     letter-spacing: var(--letter-spacing);
 }
@@ -159,7 +152,7 @@ header {
     width: 100%;
     margin-bottom: 30px;
     text-align: center;
-    font-family: 'DM-Serif-text';
+    font-family: 'DM Serif Text', serif;
     font-size: 36px;
     letter-spacing: var(--letter-spacing);
 }
@@ -181,7 +174,7 @@ header {
     border-radius: 30px;
     background: var(--color-1);
     color: var(--color-0);
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     transition: var(--transition);
 }
@@ -207,7 +200,7 @@ header {
 }
 
 #titulo-do-banner {
-    font-family: 'DM-Serif-text';
+    font-family: 'DM Serif Text', serif;
     font-size: 52px;
     letter-spacing: var(--letter-spacing);
     text-shadow: var(--text-shadow);
@@ -312,7 +305,7 @@ header {
 }
 
 .titulo-do-card {
-    font-family: 'DM-Serif-text';
+    font-family: 'DM Serif Text', serif;
     font-size: 36px;
     letter-spacing: var(--letter-spacing);
 }
