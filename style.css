@@ -47,7 +47,7 @@ header {
     justify-content: space-between;
 }
 
-#logo {
+.logo {
     color: var(--color-1);
     font-family: 'DM Serif Text', serif;
     font-size: 36px;
@@ -324,7 +324,7 @@ header {
     text-align: center;
 }
 
-#titulo-do-card-contato, #texto-do-card-contato {
+.titulo-do-card-contato, .texto-do-card-contato {
     width: 100%;
     text-align: center;
     text-shadow: var(--text-shadow);
