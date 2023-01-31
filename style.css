@@ -143,7 +143,7 @@ header {
 }
 
 .background-com-wallpaper {
-    background: url(img/moda2.jpg) center fixed no-repeat;
+    background: url(img/moda2.webp) center fixed no-repeat;
     background-size: cover;
 }
 /* FIM DOS BACKGROUNDS */
@@ -192,7 +192,7 @@ header {
 #banner {
     padding-top: 75px;
     height: 400px;
-    background: url(img/capa1.jpg) center fixed no-repeat;
+    background: url(img/capa1.webp) center fixed no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
